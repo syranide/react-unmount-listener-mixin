@@ -12,7 +12,7 @@ React.createClass({
     // perform request, abort on componentWillUnmount
     this.addUnmountListener(abortRequestFunction);
   },
-  handleClickButton: function() {
+  handleClickAbort: function() {
     // abort request, stop listening to componentWillUnmount
     this.removeUnmountListener(abortRequestFunction);
   },
