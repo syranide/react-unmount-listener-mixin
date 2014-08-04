@@ -1,0 +1,27 @@
+{
+  "name": "react-unmount-listener-mixin",
+  "version": "1.0.0",
+  "author": "Andreas Svensson <andreas@syranide.com>",
+  "description": "React mixin for listenable componentWillUnmount",
+  "homepage": "https://github.com/syranide/react-unmount-listener-mixin",
+  "bugs": "https://github.com/syranide/react-unmount-listener-mixin/issues",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/syranide/react-unmount-listener-mixin"
+  },
+  "keywords": [
+    "react",
+    "react-mixin",
+    "mixin",
+    "componentWillUnmount",
+    "willUnmount",
+    "unmount",
+    "listener",
+    "emitter"
+  ],
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "main": "react-unmount-listener-mixin.js"
+}
