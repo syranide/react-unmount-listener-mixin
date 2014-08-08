@@ -2,8 +2,6 @@
 
 React mixin for listenable componentWillMount. 710 bytes uncompressed, 373 bytes compressed.
 
-## How to use
-
 ```JS
 React.createClass({
   mixins: [ReactUnmountListenerMixin],
