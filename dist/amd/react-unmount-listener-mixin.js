@@ -1,4 +1,4 @@
-/*! react-unmount-listener-mixin 1.0.1 | @syranide | MIT license */
+/*! react-unmount-listener-mixin v1.0.2 | @syranide | MIT license */
 
 define(function() {
   var propertyName = '_mixin_unmountListeners';
@@ -53,10 +53,10 @@ define(function() {
 
       if (unmountListeners) {
         if (typeof unmountListeners === 'function') {
-          unmountListeners();
+          unmountListeners.call(this);
         } else {
           for (var i = 0; i < unmountListeners.length; i++) {
-            unmountListeners[i]();
+            unmountListeners[i].call(this);
           }
         }
       }

@@ -1,6 +1,6 @@
 # react-unmount-listener-mixin
 
-React mixin for listenable componentWillMount. 710 bytes uncompressed, 373 bytes compressed.
+React mixin for listenable componentWillMount. 729 bytes uncompressed, 381 bytes compressed.
 
 ```JS
 var ReactUnmountListenerMixin = require('react-unmount-listener-mixin');
